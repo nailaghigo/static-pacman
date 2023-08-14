@@ -1,0 +1,38 @@
+body {
+    background-color: #222;
+}
+
+.character,
+.object {
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.character {
+    width: 60px;
+    height: 60px;
+}
+
+#pacman {
+    top: 20px;
+    left: 30px;
+    background-image: url("../assets/pacman.png");
+}
+
+#ghost {
+    top: 200px;
+    left: 300px;
+    background-image: url("../assets/red-ghost.png");
+}
+
+#cookie {
+    top: 130px;
+    left: 120px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 100%;
+}
